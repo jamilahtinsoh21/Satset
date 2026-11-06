@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <color name="primary">#6C4BFF</color>
+    <color name="primary_soft">#E9E4FF</color>
+    <color name="header_bg">#D9D9DC</color>
+    <color name="bg">#F7F8FC</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="stroke">#E0E0EA</color>
+    <color name="text_primary">#1B1B1F</color>
+    <color name="text_secondary">#6B6B76</color>
+    <color name="free_bg">#BDEBCB</color>
+    <color name="free_text">#1E6B3A</color>
+    <color name="tag_bg">#C9E2FF</color>
+    <color name="warn_bg">#FFF1C9</color>
+    <color name="star">#F5A623</color>
+    <color name="hero_bg">#EFEBFF</color>
 </resources>

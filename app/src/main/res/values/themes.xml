@@ -1,9 +1,20 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.SatSet" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.SatSet" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="android:windowBackground">@color/bg</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="chipStyle">@style/Widget.Material3.Chip.Filter</item>
     </style>
 
-    <style name="Theme.SatSet" parent="Base.Theme.SatSet" />
+    <style name="SectionTitle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginBottom">6dp</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:statusBarColor">#ECEAF8</item>
+    </style>
 </resources>
